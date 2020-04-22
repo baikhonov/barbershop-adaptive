@@ -1,40 +1,24 @@
-@import "./fonts.scss";
 @import "./variables.scss";
 @import "blocks/visually-hidden.scss";
-
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
-html {
-  box-sizing: border-box;
-}
+@import "blocks/main-nav.scss";
+@import "blocks/page-header.scss";
+@import "blocks/stats.scss";
 
 body {
   min-width: 320px;
   padding: 0;
   margin: 0;
 
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
-  font-weight: 400;
-  text-transform: uppercase;
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  font-style: normal;
 
-  color: $dark;
-  background-color: $white;
-}
-
-a {
-  text-decoration: none;
+  color: #f7f4f1;
+  background-color: $bg-darkgrey;
 }
 
 img {
   max-width: 100%;
   height: auto;
-}
-
-.container {
-  width: 280px;
-  margin: 0 auto;
 }
